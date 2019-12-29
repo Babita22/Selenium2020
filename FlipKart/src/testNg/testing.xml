@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Flipkart">
+	
+	<test name="testNg">
+		
+		  <classes>
+   <class name="testNg.ExceptionTimeOutTest" />
+    <class name="testNg.GoogleTest" />
+      <class name="testNg.GoogleTitleTest" />
+      
+        <class name="testNg.InvocationCountTest " />  
+        <class name="testNg.TestNGBasics" /> 
+         <class name="testNg.TestNgFeature" />
+ 
+		</classes>
+	</test>
+</suite>
